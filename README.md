@@ -77,14 +77,15 @@ _El objetivo principal de este proyecto es poner a prueba lo aprendido en años 
 - ➸ *Micro motores Pololu 250RPM.*
 - ➸ *DRV8833.*
 ## ╚═══*+:｡ . ｡:+*═══✮❁•°❀°•❁✮═══*+:｡ . ｡:+*═══╝
-/
-/
-/
-/
-/
+\
+\
+\
+\
+\
 ♥
 # Diseño del circuito
 
+<img width="875" height="515" alt="Captura desde 2026-05-19 10-19-24" src="https://github.com/user-attachments/assets/bdb2b3d5-8303-4006-8e92-a113115159ea" />
 
 ## Descripcion del funcionamiento
 
@@ -92,35 +93,40 @@ El minisumo utiliza tres sensores para guiarse, con dos ubicados en los costados
 Cuando uno de los sensores en los costados detectan algo cerca, se posiciona para estar de frente al objeto, retrocediendo y girando en direccion paralela a este.
 Este mismo, utiliza el sensor de piso para evitar salirse del dohyo, detectyando la franja limite y volviendo para no estar tan vulnerable a cualquier empuje que lo saque de juego.
 
-#esquematico
+## Esquematico
+
+<img width="862" height="493" alt="Captura desde 2026-05-19 10-40-21" src="https://github.com/user-attachments/assets/d05bccbe-1a23-439a-aa68-815c04d1bd14" />
 
 ## Layout de PCB
+
+<img width="862" height="493" alt="Captura desde 2026-05-19 10-40-21" src="https://github.com/user-attachments/assets/3b91a17c-e57a-4dc4-9c32-c6e496a7f636" />
 
 # Pasos a seguir para armar el mini-sumo
 ## ˚*•̩̩͙✩•̩̩͙*˚＊˚*•̩̩͙✩•̩̩͙*˚＊˚*•̩̩͙✩•̩̩͙*˚＊˚*•̩̩͙✩•̩̩͙*˚＊˚*•̩̩͙✩•̩̩͙*˚
 
 ### Primero elistaremos las herramientas necesarias para llevar a cabo la placa.
--Un recipiente\
--Percloruro\
--Una agujereadora\
--Una placa de cobre\
--Papel fotografico\
--Tinta Tonel\
--Una impresora(Para imprimir el diseño PCB)
--Cable USB-C (Para cargar el codigo.)
+
+.°-> Un recipiente\
+.°-> Percloruro\
+.°-> Una agujereadora\
+.°-> Una placa de cobre\
+.°-> Papel fotografico\
+.°-> Tinta Tonel\
+.°-> Una impresora(Para imprimir el diseño PCB)\
+.°-> Cable USB-C (Para cargar el codigo.)
 
 
  
  ### -|preparación de la placa:
 
-1. Descargar el archivo de PCB de "Zungetosu(MiniSumo).kicad_pcb".
-2. Imprimir el PCB en una hoja fotográfica (como lo son las hojas de revista) con tinta "tonel".
-3. Proceda a planchar el PCB a la placa del lado del cobre.
-4. Revisar que el diagrama del PCB se haya pegado correctamente retirando la hoja fotográfica y cualquier excendete de esta(Utilice agua para remover con facilidad el papel).
-5. Sumergir la placa en un recipiente con percloruro.
-6. Dejarlo descansar un tiempo(Resivar periodicamente el cobre de la placa)
-7. Cuando el cobre se haya disuelto y solo quede el diseño, retirarlo con CUIDADO(Es un liquido corrosivo;dificil de quitar de la ropa).
-8. Limiparlo la placa con agua para quitar el excedente de percloruro.
+1) Descargar el archivo de PCB de "Zungetosu(MiniSumo).kicad_pcb".\
+2). Imprimir el PCB en una hoja fotográfica (como lo son las hojas de revista) con tinta "tonel".\
+3) Proceda a planchar el PCB a la placa del lado del cobre.\
+4) Revisar que el diagrama del PCB se haya pegado correctamente retirando la hoja fotográfica y cualquier excendete de esta (Utilice agua para remover con facilidad el papel).\
+5) Sumergir la placa en un recipiente con percloruro.\
+6) Dejarlo descansar un tiempo (Resivar periodicamente el cobre de la placa)\
+7) Cuando el cobre se haya disuelto y solo quede el diseño, retirarlo con CUIDADO (Es un liquido corrosivo; dificil de quitar de la ropa).\
+8) Limiparlo la placa con agua para quitar el excedente de percloruro.
 
  ### -|Soldar los componentes en la placa ya hecha en el siguiente orden:
  
@@ -128,23 +134,23 @@ Este mismo, utiliza el sensor de piso para evitar salirse del dohyo, detectyando
 2. Pineras
 3. Borneras
 4. Resistencias SMD
-5. Regulador AMS1117 SMD 3.3V
-6. Regulador AMS1117 5V
+5. Regulador AMS1117 5V
 
  ### Medidas de seguridad.
 
-- El percloruro es un tanto corrosivo, capáz de manchar con facilidad la ropa y otra prendas.\
-- Cuando vaya a hacer agujeros en la placa, tiene que ser en una superficie solida. Es probable que la placa pueda salir dispara en una base dispareja o inquieta.\
-- Mientra planche, este atento a no quemar completamente el papel. Podria causar un incendio.
+.°-> El percloruro es un tanto corrosivo, capáz de manchar con facilidad la ropa y otra prendas.\
+.°-> Cuando vaya a hacer agujeros en la placa, tiene que ser en una superficie solida. Es probable que la placa pueda salir dispara en una base dispareja o inquieta.\
+.°-> Mientra planche, este atento a no quemar completamente el papel. Podria causar un incendio.
 
 ### Tipo de soldadura/ensamble
+
 Todos los componentes deben fijados a la placa mendiante "soldadura de ola", el cual se utiliza para componentes de orificio pasante (THT). Los componentes debe ser introducidos desde el lado de la placa lisa y sin diseño,para ser soldados en el cobre que se encuentra del otro lado.
 En las pineras que estan direccionadas en horizontal, se debe colocar el ESP32(integrado).
 En la pineras que se encuentran en vertical, el DRV8833.
 
 ### -|Carroceria
 
-1. Descargar el modelo 3D de la carroceria.
+1. Descargar el modelo 3D de la carroceria ubicada en HARDARE.
 2. Descargar un modelo 3D de dos braquets y 2 ruedas con un radio de 20mm.
 3. Imprimir ambos archivos.
 4. Comprar cuatro tornillos para tuerca M3, 6 tuercas M3 y 2 prisioneros M3.
@@ -156,9 +162,9 @@ En la pineras que se encuentran en vertical, el DRV8833.
 El codigo establece las instrucciones que ejecutara el integrado para poder accionar y manejar al mini-sumo.\
 este es bastante simple y considera los 4 sensores teniendo en cuenta que:
 
-- No debe salir del tatami.
-- Debe atacar y empujar al otro mini-sumo fuera del area.
-- Esquivar al mini-sumo rival cuando se le de la orden.
+.°-> No debe salir del tatami.
+.°-> Debe atacar y empujar al otro mini-sumo fuera del area.
+.°-> Esquivar al mini-sumo rival cuando se le de la orden.
 
 #### -|Compilacion/Carga
 
