@@ -95,11 +95,12 @@ Este mismo, utiliza el sensor de piso para evitar salirse del dohyo, detectyando
 
 ## Esquematico
 
-<img width="862" height="493" alt="Captura desde 2026-05-19 10-40-21" src="https://github.com/user-attachments/assets/d05bccbe-1a23-439a-aa68-815c04d1bd14" />
+<img width="756" height="439" alt="image" src="https://github.com/user-attachments/assets/fa726350-87f8-43b1-9765-2d784a1f29ac" />
+
 
 ## Layout de PCB
 
-<img width="862" height="493" alt="Captura desde 2026-05-19 10-40-21" src="https://github.com/user-attachments/assets/3b91a17c-e57a-4dc4-9c32-c6e496a7f636" />
+<img width="739" height="419" alt="image" src="https://github.com/user-attachments/assets/926c4d8a-2c02-4681-a05b-84084e8da771" />
 
 # Pasos a seguir para armar el mini-sumo
 ## ˚*•̩̩͙✩•̩̩͙*˚＊˚*•̩̩͙✩•̩̩͙*˚＊˚*•̩̩͙✩•̩̩͙*˚＊˚*•̩̩͙✩•̩̩͙*˚＊˚*•̩̩͙✩•̩̩͙*˚
