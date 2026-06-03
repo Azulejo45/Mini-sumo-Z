@@ -96,7 +96,8 @@ Este mismo, utiliza el sensor de piso para evitar salirse del dohyo, detectyando
 
 ## Esquematico
 
-<img width="756" height="439" alt="image" src="https://github.com/user-attachments/assets/fa726350-87f8-43b1-9765-2d784a1f29ac" />
+<img width="711" height="466" alt="image" src="https://github.com/user-attachments/assets/48ae7ecb-8826-4e02-b62c-b5a7e5df1e45" />
+
 
 
 ## Layout de PCB
