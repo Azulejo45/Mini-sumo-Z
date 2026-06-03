@@ -85,7 +85,8 @@ _El objetivo principal de este proyecto es poner a prueba lo aprendido en años 
 ♥
 # Diseño del circuito
 
-<img width="739" height="418" alt="image" src="https://github.com/user-attachments/assets/a0c555b8-7a60-4a42-ae81-43c54a973587" />
+<img width="931" height="524" alt="image" src="https://github.com/user-attachments/assets/783541d7-f694-4765-b45a-967520f43fa5" />
+
 
 
 ## Descripcion del funcionamiento
