@@ -85,7 +85,8 @@ _El objetivo principal de este proyecto es poner a prueba lo aprendido en años 
 ♥
 # Diseño del circuito
 
-<img width="932" height="521" alt="image" src="https://github.com/user-attachments/assets/b3faf2b2-b9b5-4b1b-8315-a2d4f168f12f" />
+<img width="927" height="520" alt="image" src="https://github.com/user-attachments/assets/b0be32d9-6b32-4edd-aeba-6ae76d8d3fce" />
+
 
 
 
@@ -105,7 +106,8 @@ Este mismo, utiliza el sensor de piso para evitar salirse del dohyo, detectyando
 
 ## Layout de PCB
 
-<img width="928" height="520" alt="image" src="https://github.com/user-attachments/assets/cd3cf530-f825-4473-8468-8536864a1f9f" />
+<img width="926" height="519" alt="image" src="https://github.com/user-attachments/assets/45e3db4b-85ab-4ae5-a669-7f36910df024" />
+
 
 
 
